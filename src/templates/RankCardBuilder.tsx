@@ -293,10 +293,7 @@ export class RankCardBuilder extends Builder {
                 <Container>
                   <p style={this.style.username}>
                     <span>{this.#data.username}</span>
-                    <span style={this.style.discriminator}>
-                      {this.#data.discriminator ? `#${this.#data.discriminator}` : ''}
-                    </span>
-                  </p>
+                   </p>
                 </Container>
 
                 <Container>
